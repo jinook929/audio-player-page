@@ -13,6 +13,10 @@
   <script src="audioplayerengine/amazingaudioplayer.js"></script>
   <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
   <script src="audioplayerengine/initaudioplayer-1.js"></script>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js" type = "text/babel"></script> -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -124,6 +128,11 @@
     <hr>
   </div>
 
+  <div id="root"></div>
+  <div id="like_button_container"></div>
+
+  <script type="text/babel" src="Clock.js"></script>
+  <script src="like_button.js"></script>
   <script src="script.js"></script>
 </body>
 

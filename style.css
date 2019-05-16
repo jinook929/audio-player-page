@@ -120,6 +120,12 @@ hr {
   color: rgba(85,151,23,.9);
 }
 
+#root,
+#like_button_container {
+  text-align: center;
+  margin: -30px auto 30px;
+}
+
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
